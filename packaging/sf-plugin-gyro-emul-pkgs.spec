@@ -1,6 +1,6 @@
 #git:/slp/pkgs/e/emulator-plugin-gyro-pkgs
 Name: sf-plugin-gyro-emul-pkgs
-Version: 0.2.10
+Version: 0.1.0
 Release: 1
 Summary: gyro-sim plugins for sensor framework (using setting)
 Group: System Environment/Libraries
