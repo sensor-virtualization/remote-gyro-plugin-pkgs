@@ -1,0 +1,18 @@
+Source: sf-plugin-gyro-emul-pkgs
+Section: misc
+Priority: extra
+Maintainer:Sungmin ha <sungmin82.ha@samsung.com>,Jihye Kim <jihye1128.kim@samsung.com>,Yeongkyoon Lee <yeongkyoon.lee@samsung.com>
+Build-Depends: libsf-common-dev, libslp-setting-dev
+Standards-Version: 0.2.6
+
+Package: sf-plugin-gyro-emul-pkgs
+Architecture: i386
+Depends: ${shlibs:Depends}, ${misc:Depends}, libsf-common-0, libslp-setting-0
+Description: gyro-sim plugins for sensor framework (using setting)
+
+Package: sf-plugin-gyro-emul-pkgs-dbg
+Section: debug
+Architecture: i386
+Depends: ${shlibs:Depends}, ${misc:Depends}, sf-plugin-gyro-sim-pkgs(= ${Source-Version})
+Description:gyro-sim plugins for sensor framework(unstripped)
+ Easy gyro-sim plugins for SLP(not recommended)

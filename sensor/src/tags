@@ -1,0 +1,39 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+LOG_TAG	cgyro_sim.cpp	64;"	d	file:
+LOG_TAG	cgyro_sim.cpp	66;"	d	file:
+SENSOR_NAME	cgyro_sim.cpp	69;"	d	file:
+SENSOR_VENDOR	cgyro_sim.cpp	70;"	d	file:
+cgyro_sim	cgyro_sim.cpp	/^cgyro_sim::cgyro_sim()$/;"	f	class:cgyro_sim
+check_hw_node	cgyro_sim.cpp	/^int cgyro_sim::check_hw_node(void)$/;"	f	class:cgyro_sim
+check_sensitivity	cgyro_sim.cpp	/^int cgyro_sim::check_sensitivity(int update)$/;"	f	class:cgyro_sim
+get_property	cgyro_sim.cpp	/^int cgyro_sim::get_property(unsigned int property_level , void *property_data)$/;"	f	class:cgyro_sim
+get_sensor_type	cgyro_sim.cpp	/^int cgyro_sim::get_sensor_type(void)$/;"	f	class:cgyro_sim
+get_struct_value	cgyro_sim.cpp	/^int cgyro_sim::get_struct_value(unsigned int struct_type , void *struct_values)$/;"	f	class:cgyro_sim
+id	cgyro_sim.cpp	/^int cgyro_sim::id(void)$/;"	f	class:cgyro_sim
+is_data_ready	cgyro_sim.cpp	/^bool cgyro_sim::is_data_ready(bool wait)$/;"	f	class:cgyro_sim
+m_port	cgyro_sim.cpp	/^const char *cgyro_sim::m_port[] = {"x", "y", "z"};$/;"	m	class:cgyro_sim	file:
+module_exit	cgyro_sim.cpp	/^void module_exit(cmodule *inst)$/;"	f
+module_init	cgyro_sim.cpp	/^cmodule *module_init(void *win, void *egl)$/;"	f
+name	cgyro_sim.cpp	/^const char *cgyro_sim::name(void)$/;"	f	class:cgyro_sim
+need_polling	cgyro_sim.cpp	/^bool cgyro_sim::need_polling(void)$/;"	f	class:cgyro_sim
+polling_interval	cgyro_sim.cpp	/^long cgyro_sim::polling_interval(void)$/;"	f	class:cgyro_sim
+port	cgyro_sim.cpp	/^const char *cgyro_sim::port(int idx)$/;"	f	class:cgyro_sim
+port_count	cgyro_sim.cpp	/^int cgyro_sim::port_count(void)$/;"	f	class:cgyro_sim
+reset	cgyro_sim.cpp	/^void cgyro_sim::reset(void)$/;"	f	class:cgyro_sim
+set_cmd	cgyro_sim.cpp	/^long cgyro_sim::set_cmd(int type , int property , long input_value)$/;"	f	class:cgyro_sim
+start	cgyro_sim.cpp	/^bool cgyro_sim::start(void)$/;"	f	class:cgyro_sim
+stop	cgyro_sim.cpp	/^bool cgyro_sim::stop(void)$/;"	f	class:cgyro_sim
+update_id	cgyro_sim.cpp	/^bool cgyro_sim::update_id(int id)$/;"	f	class:cgyro_sim
+update_name	cgyro_sim.cpp	/^bool cgyro_sim::update_name(char *name)$/;"	f	class:cgyro_sim
+update_polling_interval	cgyro_sim.cpp	/^bool cgyro_sim::update_polling_interval(unsigned long val)$/;"	f	class:cgyro_sim
+update_value	cgyro_sim.cpp	/^bool cgyro_sim::update_value(void)$/;"	f	class:cgyro_sim
+update_version	cgyro_sim.cpp	/^bool cgyro_sim::update_version(int version)$/;"	f	class:cgyro_sim
+value	cgyro_sim.cpp	/^long cgyro_sim::value(const char *port)$/;"	f	class:cgyro_sim
+value	cgyro_sim.cpp	/^long cgyro_sim::value(int id)$/;"	f	class:cgyro_sim
+version	cgyro_sim.cpp	/^int cgyro_sim::version(void)$/;"	f	class:cgyro_sim
+~cgyro_sim	cgyro_sim.cpp	/^cgyro_sim::~cgyro_sim()$/;"	f	class:cgyro_sim

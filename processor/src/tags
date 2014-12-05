@@ -1,0 +1,33 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+add_callback_func	gyro_sim_processor.cpp	/^bool gyro_sim_processor::add_callback_func(cmd_reg_t * param)$/;"	f	class:gyro_sim_processor
+add_input	gyro_sim_processor.cpp	/^bool gyro_sim_processor::add_input(cfilter_module *filter)$/;"	f	class:gyro_sim_processor
+add_input	gyro_sim_processor.cpp	/^bool gyro_sim_processor::add_input(csensor_module *sensor)$/;"	f	class:gyro_sim_processor
+check_callback_event	gyro_sim_processor.cpp	/^bool gyro_sim_processor::check_callback_event(cmd_reg_t *param)$/;"	f	class:gyro_sim_processor
+check_hw_node	gyro_sim_processor.cpp	/^int gyro_sim_processor::check_hw_node(void)$/;"	f	class:gyro_sim_processor
+create_new	gyro_sim_processor.cpp	/^cprocessor_module *gyro_sim_processor::create_new(void)$/;"	f	class:gyro_sim_processor
+destroy	gyro_sim_processor.cpp	/^void gyro_sim_processor::destroy(cprocessor_module *module)$/;"	f	class:gyro_sim_processor
+get_property	gyro_sim_processor.cpp	/^int gyro_sim_processor::get_property(unsigned int property_level , void *property_data )$/;"	f	class:gyro_sim_processor
+get_struct_value	gyro_sim_processor.cpp	/^int gyro_sim_processor::get_struct_value(unsigned int struct_type , void *struct_values)$/;"	f	class:gyro_sim_processor
+gyro_sim_processor	gyro_sim_processor.cpp	/^gyro_sim_processor::gyro_sim_processor()$/;"	f	class:gyro_sim_processor
+id	gyro_sim_processor.cpp	/^int gyro_sim_processor::id(void)$/;"	f	class:gyro_sim_processor
+module_exit	gyro_sim_processor.cpp	/^void module_exit(cmodule *inst)$/;"	f
+module_init	gyro_sim_processor.cpp	/^cmodule *module_init(void *win, void *egl)$/;"	f
+name	gyro_sim_processor.cpp	/^const char *gyro_sim_processor::name(void)$/;"	f	class:gyro_sim_processor
+remove_callback_func	gyro_sim_processor.cpp	/^bool gyro_sim_processor::remove_callback_func(cmd_reg_t * param)$/;"	f	class:gyro_sim_processor
+set_cmd	gyro_sim_processor.cpp	/^long gyro_sim_processor::set_cmd(int type , int property , long input_value)$/;"	f	class:gyro_sim_processor
+start	gyro_sim_processor.cpp	/^bool gyro_sim_processor::start(void)$/;"	f	class:gyro_sim_processor
+stop	gyro_sim_processor.cpp	/^bool gyro_sim_processor::stop(void)$/;"	f	class:gyro_sim_processor
+stopped	gyro_sim_processor.cpp	/^void *gyro_sim_processor::stopped(void *inst)$/;"	f	class:gyro_sim_processor
+update_id	gyro_sim_processor.cpp	/^bool gyro_sim_processor::update_id(int id)$/;"	f	class:gyro_sim_processor
+update_name	gyro_sim_processor.cpp	/^bool gyro_sim_processor::update_name(char *name)$/;"	f	class:gyro_sim_processor
+update_version	gyro_sim_processor.cpp	/^bool gyro_sim_processor::update_version(int version)$/;"	f	class:gyro_sim_processor
+value	gyro_sim_processor.cpp	/^long gyro_sim_processor::value(char *port)$/;"	f	class:gyro_sim_processor
+value	gyro_sim_processor.cpp	/^long gyro_sim_processor::value(int id)$/;"	f	class:gyro_sim_processor
+version	gyro_sim_processor.cpp	/^int gyro_sim_processor::version(void)$/;"	f	class:gyro_sim_processor
+working	gyro_sim_processor.cpp	/^void *gyro_sim_processor::working(void *inst)$/;"	f	class:gyro_sim_processor
+~gyro_sim_processor	gyro_sim_processor.cpp	/^gyro_sim_processor::~gyro_sim_processor()$/;"	f	class:gyro_sim_processor

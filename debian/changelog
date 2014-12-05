@@ -1,0 +1,45 @@
+sf-plugin-gyro-emul-pkgs (0.2.6) unstable; urgency=low
+
+  * fixed unexpectedly stop when sms injection with sensor data
+  * Git: slp/pkgs/e/emulator-plugin-gyro-pkgs
+  * Tag: sf-plugin-gyro-emul-pkgs_0.2.6
+
+ -- Sungmin Ha <sungmin82.ha@samsung.com> Wed, 08 Aug 2012 20:54:21 +0900
+
+sf-plugin-gyro-emul-pkgs (0.2.5) unstable; urgency=low
+
+  * modified for prevent from unexpectedly stop
+  * Git: slp/pkgs/e/emulator-plugin-gyro-pkgs
+  * Tag: sf-plugin-gyro-emul-pkgs_0.2.5
+
+ -- Sungmin Ha <sungmin82.ha@samsung.com> Thu, 12 Jul 2012 16:37:00 +0900
+
+sf-plugin-gyro-emul-pkgs (0.2.4) unstable; urgency=low
+
+  * modified for support updated libslp-sensor
+  * Git: slp/pkgs/e/emulator-plugin-gyro-pkgs
+  * Tag: sf-plugin-gyro-emul-pkgs_0.2.4
+
+ -- Sungmin Ha <sungmin82.ha@samsung.com> Fri, 15 Jun 2012 18:54:00 +0900
+
+sf-plugin-gyro-emul-pkgs (0.2.3) unstable; urgency=low
+
+  * modified for support updated libslp-sensor
+  * Git: slp/pkgs/e/emulator-plugin-gyro-pkgs
+  * Tag: sf-plugin-gyro-emul-pkgs_0.2.3
+
+ -- Jihye kim <jihye1128.kim@samsung.com> Fri, 6 Apr 2012 20:00:00 +0900
+
+sf-plugin-gyro-emul-pkgs (0.2.2) unstable; urgency=low
+
+  * Update changelog version.
+  * Git: slp/pkgs/e/emulator-plugin-gyro-pkgs
+  * Tag: sf-plugin-gyro-emul-pkgs_0.2.2
+
+ -- Kitae kim <kt920.kim@samsung.com>  Thu, 27 Mar 2012 20:00:00 +0900
+
+sf-plugin-gyro-emul-pkgs (0.2.1) unstable; urgency=low
+
+  * Initial release
+
+ -- Sungmin Ha <sungmin82.ha@samsung.com> Thu, 15 Mar 2012 17:00:00 +0900

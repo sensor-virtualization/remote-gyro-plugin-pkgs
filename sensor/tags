@@ -1,0 +1,84 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ENABLE_ALL_AXES	include/l3g4200d.h	89;"	d
+L3G4200D_FS_500DPS	include/l3g4200d.h	80;"	d
+L3G4200D_FS_500DPS_SENSITIVITY	include/l3g4200d.h	84;"	d
+L3G4200D_GET_RANGE	include/l3g4200d.h	76;"	d
+L3G4200D_IOCTL_BASE	include/l3g4200d.h	71;"	d
+L3G4200D_READ_GYRO_VALUES	include/l3g4200d.h	75;"	d
+L3G4200D_SELF_TEST_MODE	include/l3g4200d.h	77;"	d
+L3G4200D_SET_BANDWIDTH	include/l3g4200d.h	74;"	d
+L3G4200D_SET_RANGE	include/l3g4200d.h	73;"	d
+LOG_TAG	src/cgyro_sim.cpp	64;"	d	file:
+LOG_TAG	src/cgyro_sim.cpp	66;"	d	file:
+ODR100_BW12_5	include/l3g4200d.h	91;"	d
+ODR100_BW25	include/l3g4200d.h	92;"	d
+ODR200_BW12_5	include/l3g4200d.h	93;"	d
+ODR200_BW25	include/l3g4200d.h	94;"	d
+ODR200_BW50	include/l3g4200d.h	95;"	d
+ODR400_BW110	include/l3g4200d.h	98;"	d
+ODR400_BW25	include/l3g4200d.h	96;"	d
+ODR400_BW50	include/l3g4200d.h	97;"	d
+ODR800_BW100	include/l3g4200d.h	100;"	d
+ODR800_BW50	include/l3g4200d.h	99;"	d
+PM_NORMAL	include/l3g4200d.h	88;"	d
+PM_OFF	include/l3g4200d.h	87;"	d
+PROPERTY_CMD_1	include/cgyro_sim.h	/^		PROPERTY_CMD_1,$/;"	e	enum:cgyro_sim::gyro_sim_cmd_property_t
+PROPERTY_CMD_2	include/cgyro_sim.h	/^		PROPERTY_CMD_2,$/;"	e	enum:cgyro_sim::gyro_sim_cmd_property_t
+PROPERTY_CMD_3	include/cgyro_sim.h	/^		PROPERTY_CMD_3,$/;"	e	enum:cgyro_sim::gyro_sim_cmd_property_t
+PROPERTY_CMD_4	include/cgyro_sim.h	/^		PROPERTY_CMD_4,$/;"	e	enum:cgyro_sim::gyro_sim_cmd_property_t
+PROPERTY_CMD_5	include/cgyro_sim.h	/^		PROPERTY_CMD_5,$/;"	e	enum:cgyro_sim::gyro_sim_cmd_property_t
+PROPERTY_CMD_START	include/cgyro_sim.h	/^		PROPERTY_CMD_START = 0,$/;"	e	enum:cgyro_sim::gyro_sim_cmd_property_t
+SENSOR_NAME	src/cgyro_sim.cpp	69;"	d	file:
+SENSOR_VENDOR	src/cgyro_sim.cpp	70;"	d	file:
+__L3G4200D_H__	include/l3g4200d.h	64;"	d
+cgyro_sim	include/cgyro_sim.h	/^class cgyro_sim : public csensor_module$/;"	c
+cgyro_sim	src/cgyro_sim.cpp	/^cgyro_sim::cgyro_sim()$/;"	f	class:cgyro_sim
+check_hw_node	src/cgyro_sim.cpp	/^int cgyro_sim::check_hw_node(void)$/;"	f	class:cgyro_sim
+check_sensitivity	src/cgyro_sim.cpp	/^int cgyro_sim::check_sensitivity(int update)$/;"	f	class:cgyro_sim
+get_property	src/cgyro_sim.cpp	/^int cgyro_sim::get_property(unsigned int property_level , void *property_data)$/;"	f	class:cgyro_sim
+get_sensor_type	src/cgyro_sim.cpp	/^int cgyro_sim::get_sensor_type(void)$/;"	f	class:cgyro_sim
+get_struct_value	src/cgyro_sim.cpp	/^int cgyro_sim::get_struct_value(unsigned int struct_type , void *struct_values)$/;"	f	class:cgyro_sim
+gyro_sim_cmd_property_t	include/cgyro_sim.h	/^	enum gyro_sim_cmd_property_t {$/;"	g	class:cgyro_sim
+id	src/cgyro_sim.cpp	/^int cgyro_sim::id(void)$/;"	f	class:cgyro_sim
+is_data_ready	src/cgyro_sim.cpp	/^bool cgyro_sim::is_data_ready(bool wait)$/;"	f	class:cgyro_sim
+m_client	include/cgyro_sim.h	/^	int m_client;$/;"	m	class:cgyro_sim
+m_fired_time	include/cgyro_sim.h	/^	unsigned long long m_fired_time;$/;"	m	class:cgyro_sim
+m_hw_type_k3g	include/cgyro_sim.h	/^	bool m_hw_type_k3g;$/;"	m	class:cgyro_sim
+m_id	include/cgyro_sim.h	/^	long m_id;$/;"	m	class:cgyro_sim
+m_ioctl_fd	include/cgyro_sim.h	/^	int m_ioctl_fd;$/;"	m	class:cgyro_sim
+m_name	include/cgyro_sim.h	/^	char *m_name;$/;"	m	class:cgyro_sim
+m_polling_interval	include/cgyro_sim.h	/^	unsigned long m_polling_interval;$/;"	m	class:cgyro_sim
+m_port	include/cgyro_sim.h	/^	static const char *m_port[];$/;"	m	class:cgyro_sim
+m_port	src/cgyro_sim.cpp	/^const char *cgyro_sim::m_port[] = {"x", "y", "z"};$/;"	m	class:cgyro_sim	file:
+m_resource	include/cgyro_sim.h	/^	char *m_resource;$/;"	m	class:cgyro_sim
+m_sensitivity	include/cgyro_sim.h	/^	float m_sensitivity;$/;"	m	class:cgyro_sim
+m_sensor_type	include/cgyro_sim.h	/^	int m_sensor_type;$/;"	m	class:cgyro_sim
+m_version	include/cgyro_sim.h	/^	long m_version;$/;"	m	class:cgyro_sim
+m_x	include/cgyro_sim.h	/^	int m_x;	\/\/pitch$/;"	m	class:cgyro_sim
+m_y	include/cgyro_sim.h	/^	int m_y;	\/\/roll	$/;"	m	class:cgyro_sim
+m_z	include/cgyro_sim.h	/^	int m_z;	\/\/yaw$/;"	m	class:cgyro_sim
+module_exit	src/cgyro_sim.cpp	/^void module_exit(cmodule *inst)$/;"	f
+module_init	src/cgyro_sim.cpp	/^cmodule *module_init(void *win, void *egl)$/;"	f
+name	src/cgyro_sim.cpp	/^const char *cgyro_sim::name(void)$/;"	f	class:cgyro_sim
+need_polling	src/cgyro_sim.cpp	/^bool cgyro_sim::need_polling(void)$/;"	f	class:cgyro_sim
+polling_interval	src/cgyro_sim.cpp	/^long cgyro_sim::polling_interval(void)$/;"	f	class:cgyro_sim
+port	src/cgyro_sim.cpp	/^const char *cgyro_sim::port(int idx)$/;"	f	class:cgyro_sim
+port_count	src/cgyro_sim.cpp	/^int cgyro_sim::port_count(void)$/;"	f	class:cgyro_sim
+reset	src/cgyro_sim.cpp	/^void cgyro_sim::reset(void)$/;"	f	class:cgyro_sim
+set_cmd	src/cgyro_sim.cpp	/^long cgyro_sim::set_cmd(int type , int property , long input_value)$/;"	f	class:cgyro_sim
+start	src/cgyro_sim.cpp	/^bool cgyro_sim::start(void)$/;"	f	class:cgyro_sim
+stop	src/cgyro_sim.cpp	/^bool cgyro_sim::stop(void)$/;"	f	class:cgyro_sim
+update_id	src/cgyro_sim.cpp	/^bool cgyro_sim::update_id(int id)$/;"	f	class:cgyro_sim
+update_name	src/cgyro_sim.cpp	/^bool cgyro_sim::update_name(char *name)$/;"	f	class:cgyro_sim
+update_polling_interval	src/cgyro_sim.cpp	/^bool cgyro_sim::update_polling_interval(unsigned long val)$/;"	f	class:cgyro_sim
+update_value	src/cgyro_sim.cpp	/^bool cgyro_sim::update_value(void)$/;"	f	class:cgyro_sim
+update_version	src/cgyro_sim.cpp	/^bool cgyro_sim::update_version(int version)$/;"	f	class:cgyro_sim
+value	src/cgyro_sim.cpp	/^long cgyro_sim::value(const char *port)$/;"	f	class:cgyro_sim
+value	src/cgyro_sim.cpp	/^long cgyro_sim::value(int id)$/;"	f	class:cgyro_sim
+version	src/cgyro_sim.cpp	/^int cgyro_sim::version(void)$/;"	f	class:cgyro_sim
+~cgyro_sim	src/cgyro_sim.cpp	/^cgyro_sim::~cgyro_sim()$/;"	f	class:cgyro_sim
