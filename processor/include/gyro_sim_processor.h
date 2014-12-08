@@ -59,6 +59,8 @@ public:
 
 	long value(char *port);
 	long value(int id);
+	//float value(char *port);
+	//float value(int id);
 
 	cprocessor_module *create_new(void);
 	void destroy(cprocessor_module *module);
@@ -87,6 +89,10 @@ private:
 	long m_x;
 	long m_y;
 	long m_z;
+
+	//float m_x;
+	//float m_y;
+	//float m_z;
 
 	long m_event;
 	long m_new_event;

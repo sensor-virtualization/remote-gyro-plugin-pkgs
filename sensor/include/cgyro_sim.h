@@ -86,6 +86,9 @@ private:
 	int m_y;	//roll	
 	int m_z;	//yaw
 
+	//float m_x;	//pitch
+	//float m_y;	//roll	
+	//float m_z;	//yaw
 	unsigned long long m_fired_time;
 
 	bool update_value(void);

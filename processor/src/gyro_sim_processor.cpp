@@ -78,7 +78,7 @@ gyro_sim_processor::gyro_sim_processor()
 , m_work_err_count(0)
 , m_data_report_cb_client(0)
 {
-	m_name = strdup("gyro_sim_processor");
+	m_name = strdup("gyro_processor");
 	if ((!m_name)) {
 		free(m_name);		
 		throw ENOMEM;

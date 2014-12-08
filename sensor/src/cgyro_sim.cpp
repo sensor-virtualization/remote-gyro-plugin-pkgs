@@ -87,7 +87,7 @@ cgyro_sim::cgyro_sim()
 , m_sensitivity(L3G4200D_FS_500DPS_SENSITIVITY)
 , m_hw_type_k3g(false)
 {
-	m_name = strdup("gyro_sim");
+	m_name = strdup("gyro_sensor");
 	m_resource = strdup("/opt/sensor/gyro");
 	if ((!m_name) ||(!m_resource)) {
 		free(m_name);
@@ -131,13 +131,14 @@ int cgyro_sim::id(void)
 }
 
 
-
+#define SCALE	(36)
 bool cgyro_sim::update_value(void)
 {
 	FILE *fp;
 	int state;
-	long  gyro_raw[3];
+	float  gyro_raw[3];
 	char raw_data_node[256] = "/dev/virtual_sensor";
+	int rtn=0;
 	
 	fp = fopen(raw_data_node, "r");
 	if (!fp){
@@ -145,19 +146,21 @@ bool cgyro_sim::update_value(void)
 		return false;
 	}
 	
-	if (fscanf(fp, "%d %d %d", &gyro_raw[0], &gyro_raw[1], &gyro_raw[2]) != 1){
-		ERR("Failed to collect data from : %s",raw_data_node);
-		fclose(fp);
-		return false;
-	}
+	//if (fscanf(fp, "%d %d %d", &gyro_raw[0], &gyro_raw[1], &gyro_raw[2]) != 3){
+	rtn = fscanf(fp, "%f %f %f", &gyro_raw[0], &gyro_raw[1], &gyro_raw[2]);
+	ERR("FSCANF return: %d",rtn);
+		//ERR("Failed to collect data from : %s",raw_data_node);
+		//fclose(fp);
+		//return false;
+	//}
 	fclose(fp);
 	csensor_module::lock();
-	m_x = gyro_raw[0];
-	m_y = gyro_raw[1];
-	m_z = gyro_raw[2];		
+	m_x = (long)(gyro_raw[0] * SCALE);
+	m_y = (long)(gyro_raw[1] * SCALE);
+	m_z = (long)(gyro_raw[2] * SCALE);		
 	csensor_module::unlock();	
 
-	DBG("Update done raw : %d, %d, %d , out_data : %d, %d, %d\n", gyro_raw[0],gyro_raw[1],gyro_raw[2],m_x, m_y, m_z);
+	ERR("Update done raw : %f, %f, %f , out_data : %d, %d, %d\n", gyro_raw[0],gyro_raw[1],gyro_raw[2],m_x, m_y, m_z);
 	return true;
 }
 
